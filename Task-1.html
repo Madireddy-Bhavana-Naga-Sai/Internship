@@ -29,8 +29,7 @@
             list-style-type: none;
             padding: 0;
             margin: 0;
-            /* Changed text-align to left */
-            text-align: left;
+            text-align: center; /* Center align the navigation */
         }
 
         ul li {
@@ -42,6 +41,12 @@
         /* Remove underlines from links */
         ul li a {
             text-decoration: none;
+            transition: color 0.3s; /* Smooth transition */
+        }
+
+        /* Add hover effect to the navigation links */
+        ul li a:hover {
+            color: #4285f4; /* Change color on hover */
         }
     </style>
 </head>
